@@ -1,0 +1,17 @@
+Q) What is difference between React and React-Dom
+React and React-DOM have different roles.
+
+React is used to create components and UI logic.
+It helps us write JSX, manage state, props, and hooks.
+React itself does not touch the browser DOM.
+
+React-DOM is used to render those React components into the actual browser DOM.
+It connects React with the web page.
+
+In short:
+React = what to build
+React-DOM = where and how to show it in the browser
+
+One-line answer (very useful in interviews)
+
+React builds the UI components, and React-DOM renders those components into the browser DOM.
