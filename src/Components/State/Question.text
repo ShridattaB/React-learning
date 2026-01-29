@@ -1,0 +1,10 @@
+Q1) What is State
+State is a React object used to store dynamic data and re-render the UI when that data changes.
+
+Q2)what re-render and refresh
+updates only the changed parts of the UI.
+The entire browser page reloads.
+
+Q3)Why React does NOT update UI when variable changes? 
+React does not track normal variables
+Changing a variable does not tell React that UI should re-render
