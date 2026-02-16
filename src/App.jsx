@@ -1,3 +1,4 @@
+import UseEffeec from "./Components/UseEffeec"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
  <>
-
+<UseEffeec/>
  </>
   )
 }
