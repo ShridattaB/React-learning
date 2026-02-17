@@ -1,3 +1,4 @@
+import ParentMemo from "./useMemo/ParentMemo"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
  <>
-
+<ParentMemo/>
  </>
   )
 }
