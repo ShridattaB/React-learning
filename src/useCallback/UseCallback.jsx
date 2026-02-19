@@ -60,6 +60,33 @@ function UseCallback() {
 <button onClick={handlCLick}>checkLog</button>
 <h1>{num1}</h1>
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     </div>
   )
 }
