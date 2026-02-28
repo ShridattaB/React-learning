@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Loginstyle.css'
 import { useNavigate } from 'react-router-dom'
+import { setToken } from '../Utils/Utils'
+
 
 function Login() {
     const [userName,setUsername]=useState()
@@ -20,12 +22,16 @@ function Login() {
     
     username: userName, //'emilys',
     password:  userPass,//'emilyspass',
-    expiresInMins: 30, // optional, defaults to 60
+    expiresInMins: 1, // optional, defaults to 60
   }),
   credentials: 'include'
       })
       const data = await res.json()
       console.log(data);
+      setToken("accessToken", data.accessToken);
+      setToken("refreshToken", data.refreshToken);
+
+      
       navigate('/userDetails')
     }
     fetchData()
